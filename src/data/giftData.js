@@ -188,7 +188,122 @@ export const gifts = [
   // ==================== 补充：10000元以上 ====================
   { id: 64, name: '高端瑞士手表', priceRange: 'above_10000', category: 'luxury', subcategory: 'brand', recipients: ['lover', 'boss', 'client', 'family'], scenes: ['birthday', 'thanks', 'festival'], reason: '瑞士机芯，经典设计，时间的艺术品，身份与品位的象征', sceneDesc: '顶级生日礼物、商务答谢、重要纪念日' },
   { id: 65, name: '名牌珠宝套装', priceRange: 'above_10000', category: 'luxury', subcategory: 'brand', recipients: ['lover', 'family'], scenes: ['birthday', 'festival', 'apology'], reason: '国际珠宝品牌，钻石/宝石镶嵌，璀璨夺目', sceneDesc: '求婚/纪念日、顶级生日礼物、奢华心意' },
-  { id: 66, name: '限量版收藏手表', priceRange: 'above_10000', category: 'luxury', subcategory: 'collectible', recipients: ['boss', 'client', 'family', 'lover'], scenes: ['thanks', 'festival', 'birthday'], reason: '限量编号发行，手工打造，收藏与实用完美结合', sceneDesc: '顶级收藏、商务重礼、传世之选' }
+  { id: 66, name: '限量版收藏手表', priceRange: 'above_10000', category: 'luxury', subcategory: 'collectible', recipients: ['boss', 'client', 'family', 'lover'], scenes: ['thanks', 'festival', 'birthday'], reason: '限量编号发行，手工打造，收藏与实用完美结合', sceneDesc: '顶级收藏、商务重礼、传世之选' },
+
+  // ==================== 日用百货 补充 ====================
+  { id: 67, name: '日式简约收纳箱套装', priceRange: '50_100', category: 'daily', subcategory: 'living', recipients: ['classmate', 'friend', 'colleague', 'family', 'child'], scenes: ['daily_greeting', 'graduation', 'housewarming'], reason: '可折叠大容量，让宿舍/书桌整洁有序，学生党必备', sceneDesc: '开学好物、宿舍收纳、日常整理' },
+  { id: 68, name: '不锈钢保温饭盒', priceRange: '100_200', category: 'daily', subcategory: 'living', recipients: ['classmate', 'colleague', 'friend', 'family', 'child'], scenes: ['daily_greeting', 'graduation'], reason: '多层分格不串味，带饭上班上学必备，暖胃更暖心', sceneDesc: '上班带饭、学生便当、实用关怀' },
+  { id: 69, name: '高硼硅玻璃水杯套装', priceRange: '50_100', category: 'daily', subcategory: 'living', recipients: ['classmate', 'friend', 'colleague', 'teacher', 'family'], scenes: ['daily_greeting', 'festival'], reason: '双层防烫高颜值，泡茶泡咖啡皆可，一对杯子寓意成双成对', sceneDesc: '情侣对杯、闺蜜同款、日常送礼' },
+  { id: 70, name: '可爱抱枕靠垫', priceRange: '50_100', category: 'daily', subcategory: 'living', recipients: ['classmate', 'friend', 'lover', 'family', 'child'], scenes: ['birthday', 'daily_greeting'], reason: '软萌造型柔软亲肤，宿舍沙发必备，抱着追剧幸福感满满', sceneDesc: '生日小礼、宿舍好物、追剧伴侣' },
+  { id: 71, name: '居家棉拖鞋礼盒', priceRange: '50_100', category: 'daily', subcategory: 'living', recipients: ['classmate', 'friend', 'family', 'elder', 'lover'], scenes: ['daily_greeting', 'housewarming', 'festival'], reason: '毛绒内里温暖包裹，冬天最实在的关怀从脚开始', sceneDesc: '冬日暖心、乔迁小礼、宿舍保暖' },
+  { id: 72, name: '防晒遮阳伞三折', priceRange: '50_100', category: 'daily', subcategory: 'living', recipients: ['classmate', 'friend', 'lover', 'teacher', 'colleague'], scenes: ['daily_greeting', 'thanks'], reason: 'UPF50+黑胶防晒，小巧便携，晴雨两用夏天必备', sceneDesc: '夏日关怀、通勤必备、闺蜜同款' },
+  { id: 73, name: '补水面膜礼盒30片装', priceRange: '100_200', category: 'daily', subcategory: 'care', recipients: ['classmate', 'friend', 'lover', 'colleague', 'teacher'], scenes: ['daily_greeting', 'birthday', 'festival'], reason: '多重玻尿酸深层补水，30片大分量超实惠，日常护肤必备', sceneDesc: '女生最爱、闺蜜礼物、日常护肤' },
+  { id: 74, name: '香氛身体乳礼盒', priceRange: '100_200', category: 'daily', subcategory: 'care', recipients: ['classmate', 'friend', 'lover', 'teacher', 'family'], scenes: ['birthday', 'daily_greeting', 'festival'], reason: '持久留香滋润不黏腻，洗完澡涂上全身都香香的', sceneDesc: '精致女孩之选、生日礼物、日常呵护' },
+  { id: 75, name: '氨基酸洁面乳套装', priceRange: '100_200', category: 'daily', subcategory: 'care', recipients: ['classmate', 'friend', 'lover', 'colleague'], scenes: ['daily_greeting', 'birthday'], reason: '温和清洁不紧绷，男女通用，送洗面奶=每天都在想你', sceneDesc: '日常实用、男女通用、护肤必备' },
+  { id: 76, name: '品牌洗手液护手霜套装', priceRange: '50_100', category: 'daily', subcategory: 'care', recipients: ['classmate', 'friend', 'colleague', 'teacher', 'family'], scenes: ['daily_greeting', 'festival', 'thanks'], reason: '大牌香型洗手液+护手霜组合，呵护双手从清洁开始', sceneDesc: '日常实用、教师节、家庭送礼' },
+  { id: 77, name: '口腔护理套装', priceRange: '100_200', category: 'daily', subcategory: 'care', recipients: ['classmate', 'friend', 'colleague', 'lover'], scenes: ['daily_greeting', 'birthday'], reason: '电动牙刷+牙膏+漱口水一站配齐，呵护口腔健康的贴心之选', sceneDesc: '健康关怀、精致生活、日常实用' },
+  { id: 78, name: 'LED护眼台灯', priceRange: '100_200', category: 'daily', subcategory: 'desktop', recipients: ['classmate', 'friend', 'colleague', 'child', 'teacher'], scenes: ['daily_greeting', 'graduation', 'birthday'], reason: '三档色温无频闪，宿舍学习办公必备，照亮奋斗的夜晚', sceneDesc: '学生必备、办公好物、学习礼物' },
+  { id: 79, name: '懒人手机支架', priceRange: 'under_50', category: 'daily', subcategory: 'desktop', recipients: ['classmate', 'friend', 'colleague', 'family', 'child'], scenes: ['daily_greeting', 'birthday'], reason: '360°旋转稳固不晃，追剧刷视频释放双手，便宜但超实用', sceneDesc: '追剧神器、学生好物、日常小礼' },
+  { id: 80, name: '木质显示器增高架', priceRange: '100_200', category: 'daily', subcategory: 'desktop', recipients: ['classmate', 'colleague', 'friend', 'teacher'], scenes: ['daily_greeting', 'thanks'], reason: '抬高屏幕保护颈椎，底部还能收纳键盘，办公学习两相宜', sceneDesc: '程序员礼物、办公关怀、桌面升级' },
+  { id: 81, name: '多功能数据线收纳盒', priceRange: 'under_50', category: 'daily', subcategory: 'desktop', recipients: ['classmate', 'friend', 'colleague'], scenes: ['daily_greeting'], reason: '告别桌面杂乱，充电线耳机线整齐归位，麻雀虽小五脏俱全', sceneDesc: '桌面整理、数码配件收纳、日常小物' },
+  { id: 82, name: '大号皮革桌垫', priceRange: '50_100', category: 'daily', subcategory: 'desktop', recipients: ['classmate', 'colleague', 'friend', 'teacher'], scenes: ['daily_greeting', 'graduation'], reason: '防水防污质感高级，既是鼠标垫又是桌垫，桌面颜值担当', sceneDesc: '办公升级、学生礼物、桌面好物' },
+  { id: 83, name: '折叠环保购物袋', priceRange: 'under_50', category: 'daily', subcategory: 'portable', recipients: ['classmate', 'friend', 'family', 'colleague', 'elder'], scenes: ['daily_greeting', 'festival'], reason: '收纳后巴掌大小展开超大容量，环保又时尚的买菜逛街神器', sceneDesc: '环保实用、超市购物、日常出行' },
+  { id: 84, name: '旅行收纳袋6件套', priceRange: '50_100', category: 'daily', subcategory: 'portable', recipients: ['classmate', 'friend', 'colleague', 'family'], scenes: ['daily_greeting', 'graduation', 'festival'], reason: '衣物鞋袜分类收纳，出差旅行告别行李一团乱，整理控最爱', sceneDesc: '旅行必备、开学礼物、出差神器' },
+  { id: 85, name: '迷你便携急救包', priceRange: '50_100', category: 'daily', subcategory: 'portable', recipients: ['classmate', 'friend', 'family', 'elder', 'colleague'], scenes: ['daily_greeting', 'sick'], reason: '创可贴+碘伏+绷带等一应俱全，居家出行有备无患的安心', sceneDesc: '安全关怀、户外出行、家庭必备' },
+  { id: 86, name: '不锈钢便携餐具套装', priceRange: '50_100', category: 'daily', subcategory: 'portable', recipients: ['classmate', 'friend', 'colleague', 'family'], scenes: ['daily_greeting', 'graduation'], reason: '筷子+勺+叉+收纳盒，告别一次性餐具，环保又卫生', sceneDesc: '上班带饭、学生便当、环保生活' },
+  { id: 87, name: '便携折叠水杯', priceRange: 'under_50', category: 'daily', subcategory: 'portable', recipients: ['classmate', 'friend', 'colleague', 'family'], scenes: ['daily_greeting', 'graduation'], reason: '食品级硅胶可压缩，刷牙喝水一杯搞定，出差旅行超方便', sceneDesc: '旅行神器、户外出行、学生宿舍' },
+
+  // ==================== 文具文创 补充 ====================
+  { id: 88, name: '双头彩色马克笔套装', priceRange: '100_200', category: 'stationery', subcategory: 'writing', recipients: ['classmate', 'friend', 'child', 'colleague'], scenes: ['birthday', 'daily_greeting', 'graduation'], reason: '48色双头设计，绘画手账涂鸦必备，色彩控无法抗拒', sceneDesc: '手绘爱好者、学生礼物、创意工具' },
+  { id: 89, name: '毛笔字书法套装', priceRange: '100_200', category: 'stationery', subcategory: 'writing', recipients: ['elder', 'teacher', 'boss', 'family'], scenes: ['festival', 'thanks'], reason: '狼毫+羊毫+墨汁+砚台一应俱全，修身养性的雅趣之选', sceneDesc: '送长辈、文化修养、退休礼物' },
+  { id: 90, name: '商务宝珠笔礼盒', priceRange: '200_500', category: 'stationery', subcategory: 'writing', recipients: ['boss', 'client', 'colleague', 'teacher'], scenes: ['thanks', 'daily_greeting', 'festival'], reason: '金属拉丝质感，签字手感顺滑，商务场合的气质单品', sceneDesc: '商务签字、职场礼物、答谢赠礼' },
+  { id: 91, name: '日系贴纸套装大礼包', priceRange: '50_100', category: 'stationery', subcategory: 'journal', recipients: ['classmate', 'friend', 'child', 'lover'], scenes: ['daily_greeting', 'birthday'], reason: '100+张不重样，可爱治愈系，手账装饰随心搭配', sceneDesc: '手账达人、学生小礼、手工装饰' },
+  { id: 92, name: '复古便签纸砖', priceRange: 'under_50', category: 'stationery', subcategory: 'journal', recipients: ['classmate', 'friend', 'colleague', 'teacher'], scenes: ['daily_greeting', 'thanks'], reason: '多款图案可撕便签，桌面颜值担当，随手记备忘超方便', sceneDesc: '办公好物、学生必备、桌面装饰' },
+  { id: 93, name: '国潮故宫文创书签礼盒', priceRange: '100_200', category: 'stationery', subcategory: 'creative', recipients: ['classmate', 'teacher', 'friend', 'family', 'client'], scenes: ['festival', 'thanks', 'daily_greeting'], reason: '故宫联名设计，金属镂空精美绝伦，文化底蕴与颜值齐飞', sceneDesc: '文化礼物、教师节、读书爱好者' },
+  { id: 94, name: '木质印章套装', priceRange: '50_100', category: 'stationery', subcategory: 'creative', recipients: ['classmate', 'friend', 'child'], scenes: ['daily_greeting', 'birthday'], reason: '多款花体字母+图案印章，手账卡片装饰必备仪式感', sceneDesc: '手账周边、手工爱好者、创意礼物' },
+  { id: 95, name: '黄铜书签尺子套装', priceRange: '100_200', category: 'stationery', subcategory: 'premium_stationery', recipients: ['teacher', 'classmate', 'friend', 'colleague', 'boss'], scenes: ['thanks', 'graduation', 'festival'], reason: '黄铜蚀刻复古质感，既是书签又是尺子，文艺青年的挚爱', sceneDesc: '毕业礼物、文艺青年、教师节' },
+  { id: 96, name: '头层牛皮笔记本', priceRange: '200_500', category: 'stationery', subcategory: 'premium_stationery', recipients: ['boss', 'client', 'teacher', 'colleague', 'friend'], scenes: ['thanks', 'festival', 'daily_greeting'], reason: '意大利植鞣皮封面，可替换内芯，一本可以陪伴一生的笔记本', sceneDesc: '商务礼品、文艺之选、高端文具' },
+
+  // ==================== 食品饮品 补充 ====================
+  { id: 97, name: '猪肉脯牛肉干零食大礼包', priceRange: '100_200', category: 'food', subcategory: 'snack', recipients: ['classmate', 'friend', 'family', 'colleague'], scenes: ['daily_greeting', 'festival'], reason: '精选猪肉脯+牛肉干+鸭脖多款组合，追剧聚会解馋必备', sceneDesc: '宿舍分享、追剧零食、聚会必备' },
+  { id: 98, name: '每日坚果混合30袋装', priceRange: '100_200', category: 'food', subcategory: 'snack', recipients: ['classmate', 'friend', 'family', 'elder', 'teacher'], scenes: ['daily_greeting', 'sick', 'festival'], reason: '核桃+腰果+杏仁+蓝莓干科学配比，每天一袋健康加分', sceneDesc: '健康零食、学生补脑、看望长辈' },
+  { id: 99, name: '海苔肉松卷礼盒', priceRange: '50_100', category: 'food', subcategory: 'snack', recipients: ['classmate', 'friend', 'child', 'family'], scenes: ['daily_greeting', 'birthday'], reason: '酥脆海苔裹着满满肉松，一口一个停不下来，小朋友超爱', sceneDesc: '儿童零食、学生分享、日常解馋' },
+  { id: 100, name: '冻干水果脆礼盒', priceRange: '50_100', category: 'food', subcategory: 'snack', recipients: ['classmate', 'friend', 'child', 'lover', 'family'], scenes: ['daily_greeting', 'birthday'], reason: '草莓+芒果+苹果冻干锁鲜，酥脆酸甜健康零食新选择', sceneDesc: '健康零食、儿童最爱、办公室零食' },
+  { id: 101, name: '普洱茶饼礼盒', priceRange: '200_500', category: 'food', subcategory: 'drink', recipients: ['elder', 'boss', 'client', 'teacher', 'family'], scenes: ['festival', 'thanks'], reason: '云南古树普洱，越陈越香，送茶就是送健康与品味', sceneDesc: '送长辈、商务往来、茶文化' },
+  { id: 102, name: '枸杞菊花八宝茶礼盒', priceRange: '100_200', category: 'food', subcategory: 'drink', recipients: ['teacher', 'elder', 'colleague', 'family'], scenes: ['daily_greeting', 'festival', 'sick'], reason: '宁夏枸杞+杭白菊+红枣桂圆，养生花茶组合清肝明目', sceneDesc: '养生好礼、教师节、看望长辈' },
+  { id: 103, name: '进口红茶礼盒套装', priceRange: '200_500', category: 'food', subcategory: 'drink', recipients: ['boss', 'client', 'friend', 'teacher', 'colleague'], scenes: ['thanks', 'festival', 'daily_greeting'], reason: '锡兰+大吉岭+阿萨姆精选红茶，英伦下午茶的优雅仪式', sceneDesc: '商务送礼、下午茶时光、品味之选' },
+  { id: 104, name: '阿胶糕礼盒', priceRange: '200_500', category: 'food', subcategory: 'health_food', recipients: ['elder', 'family', 'lover', 'teacher'], scenes: ['festival', 'birthday', 'sick'], reason: '东阿阿胶+核桃+芝麻传统熬制，补气养血美容养颜', sceneDesc: '孝敬长辈、送女性亲友、滋补养颜' },
+  { id: 105, name: '蛋白粉营养礼盒', priceRange: '200_500', category: 'food', subcategory: 'health_food', recipients: ['friend', 'colleague', 'family', 'elder'], scenes: ['daily_greeting', 'sick', 'festival'], reason: '乳清蛋白+维生素组合，健身增肌/术后恢复的营养支持', sceneDesc: '健身达人、康复关怀、健康送礼' },
+  { id: 106, name: '黑枸杞礼盒', priceRange: '200_500', category: 'food', subcategory: 'health_food', recipients: ['elder', 'family', 'teacher', 'boss'], scenes: ['festival', 'thanks', 'sick'], reason: '青海野生黑枸杞，花青素之王，泡水变色美如星空', sceneDesc: '养生保健、高端送礼、抗氧化' },
+  { id: 107, name: '手工曲奇饼干礼盒', priceRange: '100_200', category: 'food', subcategory: 'dessert', recipients: ['classmate', 'friend', 'lover', 'child', 'colleague'], scenes: ['birthday', 'festival', 'apology'], reason: '黄油曲奇+抹茶+可可多种口味，铁盒精装好看又好吃', sceneDesc: '生日礼物、下午茶、甜蜜道歉' },
+  { id: 108, name: '牛轧糖礼盒', priceRange: '50_100', category: 'food', subcategory: 'dessert', recipients: ['classmate', 'friend', 'child', 'colleague', 'family'], scenes: ['festival', 'daily_greeting'], reason: '花生+蔓越莓+抹茶多口味，奶香浓郁甜而不腻的童年味道', sceneDesc: '过年送礼、日常分享、童年回忆' },
+  { id: 109, name: '生巧克力礼盒', priceRange: '100_200', category: 'food', subcategory: 'dessert', recipients: ['lover', 'friend', 'classmate'], scenes: ['birthday', 'apology', 'festival'], reason: '入口即化的丝滑生巧，冷藏后口感如冰淇淋般的甜蜜暴击', sceneDesc: '情人节、告白礼物、甜蜜惊喜' },
+
+  // ==================== 家居生活 补充 ====================
+  { id: 110, name: '创意照片墙套装', priceRange: '50_100', category: 'home', subcategory: 'decoration', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['housewarming', 'birthday', 'daily_greeting'], reason: '麻绳+小夹子+彩灯串，挂满回忆的照片墙是家最温暖的一角', sceneDesc: '宿舍装饰、新家礼物、浪漫惊喜' },
+  { id: 111, name: '干花束装饰摆件', priceRange: '50_100', category: 'home', subcategory: 'decoration', recipients: ['classmate', 'friend', 'lover', 'teacher', 'colleague'], scenes: ['daily_greeting', 'housewarming', 'thanks'], reason: '永生干花+ins风花瓶，无需打理永远盛开，桌面颜值担当', sceneDesc: '桌面装饰、宿舍好物、日常心意' },
+  { id: 112, name: '北欧风壁挂装饰布', priceRange: 'under_50', category: 'home', subcategory: 'decoration', recipients: ['classmate', 'friend', 'lover'], scenes: ['housewarming', 'birthday', 'daily_greeting'], reason: 'ins简约风格挂布，瞬间提升房间格调，学生党装饰首选', sceneDesc: '宿舍改造、出租屋装饰、生日小礼' },
+  { id: 113, name: '高硼硅玻璃冷水壶套装', priceRange: '100_200', category: 'home', subcategory: 'kitchen', recipients: ['classmate', 'friend', 'family', 'colleague'], scenes: ['housewarming', 'daily_greeting'], reason: '耐高温可明火加热，夏日柠檬水花茶一壶搞定，颜值在线', sceneDesc: '乔迁礼物、夏日好物、厨房升级' },
+  { id: 114, name: '日式陶瓷调料瓶套装', priceRange: '50_100', category: 'home', subcategory: 'kitchen', recipients: ['family', 'friend', 'colleague', 'classmate'], scenes: ['housewarming', 'daily_greeting'], reason: '油盐酱醋整齐排列，让厨房台面告别杂乱，下厨更有仪式感', sceneDesc: '新家必备、厨房收纳、实用好物' },
+  { id: 115, name: '无火香薰藤条套装', priceRange: '50_100', category: 'home', subcategory: 'aroma', recipients: ['classmate', 'friend', 'lover', 'colleague', 'teacher'], scenes: ['daily_greeting', 'housewarming', 'thanks'], reason: '酒店同款高级香型，藤条扩香持久60天，让家时刻散发高级感', sceneDesc: '精致生活、新家礼物、日常芬芳' },
+  { id: 116, name: '车载香薰挂件', priceRange: '50_100', category: 'home', subcategory: 'aroma', recipients: ['friend', 'colleague', 'family', 'lover'], scenes: ['daily_greeting', 'birthday'], reason: '天然精油+木质扩香，挂在车上清新提神，送给有车的朋友', sceneDesc: '车主礼物、日常关怀、车内好物' },
+  { id: 117, name: '棉麻抱枕套一对', priceRange: '50_100', category: 'home', subcategory: 'textile', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['housewarming', 'daily_greeting'], reason: '北欧几何图案棉麻质地，换个枕套换种心情，沙发颜值瞬间提升', sceneDesc: '家居装饰、宿舍好物、租房改造' },
+  { id: 118, name: '北欧风简约地毯', priceRange: '100_200', category: 'home', subcategory: 'textile', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['housewarming', 'birthday'], reason: '短毛柔软不掉毛，床边一块地毯让起床第一步不再冰冷', sceneDesc: '新家礼物、宿舍改造、冬日温暖' },
+  { id: 119, name: '珊瑚绒午休毯', priceRange: '50_100', category: 'home', subcategory: 'textile', recipients: ['classmate', 'colleague', 'friend', 'family', 'child'], scenes: ['daily_greeting', 'birthday'], reason: '办公室/教室午休披盖，柔软亲肤小巧便携，小憩也要暖暖的', sceneDesc: '办公室午休、学生礼物、冬日暖物' },
+
+  // ==================== 时尚饰品 补充 ====================
+  { id: 120, name: '钛钢不掉色锁骨链', priceRange: '100_200', category: 'fashion', subcategory: 'jewelry', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['birthday', 'daily_greeting', 'festival'], reason: '钛钢材质洗澡也不用摘，简约百搭不会过敏，每天都戴的贴心', sceneDesc: '闺蜜项链、学生党最爱、日常百搭' },
+  { id: 121, name: '天然珍珠手链', priceRange: '200_500', category: 'fashion', subcategory: 'jewelry', recipients: ['lover', 'friend', 'family', 'teacher'], scenes: ['birthday', 'thanks', 'festival'], reason: '精选近圆淡水珍珠，温婉气质手链，抬手瞬间尽显优雅', sceneDesc: '送妈妈/女友、教师节、优雅之选' },
+  { id: 122, name: 'ins风戒指套装', priceRange: '50_100', category: 'fashion', subcategory: 'jewelry', recipients: ['classmate', 'friend', 'lover'], scenes: ['birthday', 'daily_greeting'], reason: '5枚不同款式叠戴组合，每天换着戴，适合爱搭配的学生党', sceneDesc: '闺蜜礼物、时尚搭配、平价精致' },
+  { id: 123, name: '学院风双肩包', priceRange: '200_500', category: 'fashion', subcategory: 'bag', recipients: ['classmate', 'friend', 'child', 'lover'], scenes: ['daily_greeting', 'graduation', 'birthday'], reason: '大容量多隔层，背着舒服又好看，学生通勤两相宜', sceneDesc: '开学礼物、学生必备、日常通勤' },
+  { id: 124, name: '简约斜挎胸包', priceRange: '100_200', category: 'fashion', subcategory: 'bag', recipients: ['classmate', 'friend', 'colleague', 'lover'], scenes: ['daily_greeting', 'birthday'], reason: '轻便出行手机钥匙一包搞定，解放双手的潮流单品', sceneDesc: '男生礼物、日常出行、轻便实用' },
+  { id: 125, name: '大容量化妆包', priceRange: '50_100', category: 'fashion', subcategory: 'bag', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['daily_greeting', 'birthday', 'festival'], reason: '多层分区防水内衬，护肤品化妆品整齐收纳，女生永远缺一个化妆包', sceneDesc: '女生最爱、旅行收纳、精致好物' },
+  { id: 126, name: '潮牌棒球帽', priceRange: '100_200', category: 'fashion', subcategory: 'scarf_hat', recipients: ['classmate', 'friend', 'colleague', 'lover'], scenes: ['daily_greeting', 'birthday'], reason: '纯棉透气百搭款，遮阳又耍帅，出门不用打理头发的快乐', sceneDesc: '潮流单品、夏日必备、日常穿搭' },
+  { id: 127, name: '日系渔夫帽', priceRange: '50_100', category: 'fashion', subcategory: 'scarf_hat', recipients: ['classmate', 'friend', 'lover'], scenes: ['daily_greeting', 'birthday'], reason: '双面可戴一顶当两顶，防晒又显脸小，拍照凹造型神器', sceneDesc: '夏日防晒、拍照神器、学生潮流' },
+  { id: 128, name: '韩版发饰套装', priceRange: 'under_50', category: 'fashion', subcategory: 'accessory', recipients: ['classmate', 'friend', 'lover', 'child'], scenes: ['daily_greeting', 'birthday'], reason: '发圈+发夹+发箍多款组合，每天换发型不重样', sceneDesc: '女生小礼、日常换装、精致好物' },
+  { id: 129, name: '真皮简约腰带', priceRange: '200_500', category: 'fashion', subcategory: 'accessory', recipients: ['lover', 'friend', 'colleague', 'boss', 'family'], scenes: ['birthday', 'festival', 'thanks'], reason: '头层牛皮自动扣，简约商务百搭，一条好皮带能用好多年', sceneDesc: '男士礼物、商务必备、实用品质' },
+  { id: 130, name: '精致胸针领针', priceRange: '100_200', category: 'fashion', subcategory: 'accessory', recipients: ['teacher', 'colleague', 'boss', 'friend'], scenes: ['thanks', 'festival', 'daily_greeting'], reason: '小巧精致的西装/大衣点缀，细节之处彰显品味', sceneDesc: '职场礼物、教师节、精致配饰' },
+
+  // ==================== 数码电子 补充 ====================
+  { id: 131, name: '便携电热水壶', priceRange: '100_200', category: 'digital', subcategory: 'appliance', recipients: ['classmate', 'friend', 'colleague', 'family', 'elder'], scenes: ['daily_greeting', 'graduation'], reason: '500ml一人食刚好，宿舍/办公室烧水泡面冲咖啡，小功率不跳闸', sceneDesc: '学生宿舍、办公室、出差便携' },
+  { id: 132, name: '手持迷你小风扇', priceRange: 'under_50', category: 'digital', subcategory: 'appliance', recipients: ['classmate', 'friend', 'colleague', 'child'], scenes: ['daily_greeting', 'graduation'], reason: 'USB充电三档风力，夏日教室/办公室消暑神器，走到哪吹到哪', sceneDesc: '夏日必备、学生好物、清凉礼物' },
+  { id: 133, name: '恒温暖杯垫', priceRange: '50_100', category: 'digital', subcategory: 'appliance', recipients: ['classmate', 'colleague', 'friend', 'teacher', 'family'], scenes: ['daily_greeting', 'festival', 'thanks'], reason: '55°C恒温加热，冬天也能一直喝到温水，办公桌暖心小电器', sceneDesc: '冬日关怀、办公室好物、暖心礼物' },
+  { id: 134, name: 'HIFI有线耳机', priceRange: '200_500', category: 'digital', subcategory: 'audio', recipients: ['classmate', 'friend', 'colleague', 'lover'], scenes: ['birthday', 'graduation', 'festival'], reason: '圈铁混合单元高解析音质，音乐爱好者的入门HiFi之选', sceneDesc: '音乐发烧友、学生礼物、品质聆听' },
+  { id: 135, name: '手机电脑两用U盘', priceRange: '50_100', category: 'digital', subcategory: 'gadget', recipients: ['classmate', 'colleague', 'teacher', 'friend'], scenes: ['daily_greeting', 'graduation'], reason: 'Type-C+USB双接口，手机电脑即插即传，学生党办公族必备', sceneDesc: '学习办公、数据备份、实用小物' },
+  { id: 136, name: '10000mAh超薄充电宝', priceRange: '100_200', category: 'digital', subcategory: 'gadget', recipients: ['classmate', 'friend', 'colleague', 'family', 'lover'], scenes: ['daily_greeting', 'birthday', 'graduation'], reason: '轻薄如手机自带双线，出门不用再借充电宝的电量安全感', sceneDesc: '出门必备、学生标配、日常实用' },
+  { id: 137, name: '手机散热背夹', priceRange: '100_200', category: 'digital', subcategory: 'gadget', recipients: ['classmate', 'friend', 'colleague'], scenes: ['daily_greeting', 'birthday'], reason: '半导体制冷秒降温，打游戏不怕手机发烫掉帧，手游党福音', sceneDesc: '手游玩家、数码配件、男生礼物' },
+  { id: 138, name: 'USB多口扩展器', priceRange: '50_100', category: 'digital', subcategory: 'gadget', recipients: ['classmate', 'colleague', 'teacher', 'friend'], scenes: ['daily_greeting', 'thanks'], reason: 'USB+HDMI+SD卡槽多合一，轻薄本的好搭档，告别转接头烦恼', sceneDesc: '笔记本伴侣、办公必备、数码配件' },
+  { id: 139, name: '智能插座', priceRange: '50_100', category: 'digital', subcategory: 'smart', recipients: ['classmate', 'friend', 'colleague', 'family'], scenes: ['daily_greeting', 'housewarming'], reason: '手机远程开关+定时功能，让普通家电秒变智能，懒人生活神器', sceneDesc: '智能家居入门、新家礼物、科技好物' },
+  { id: 140, name: 'RGB智能灯泡', priceRange: '50_100', category: 'digital', subcategory: 'smart', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['birthday', 'daily_greeting', 'housewarming'], reason: '1600万色APP控制，房间秒变氛围感空间，游戏房氛围灯首选', sceneDesc: '氛围神器、游戏房、宿舍改造' },
+  { id: 141, name: '电子墨水屏单词卡', priceRange: '100_200', category: 'digital', subcategory: 'smart', recipients: ['classmate', 'child', 'friend'], scenes: ['graduation', 'daily_greeting', 'birthday'], reason: '护眼墨水屏+海量词库，碎片时间背单词，学习也能很酷', sceneDesc: '学习神器、学生礼物、考研必备' },
+  { id: 142, name: '智能体脂秤', priceRange: '100_200', category: 'digital', subcategory: 'smart', recipients: ['friend', 'family', 'lover', 'colleague'], scenes: ['birthday', 'daily_greeting'], reason: '测体重+体脂+肌肉量等多项数据，健康管理的贴心小管家', sceneDesc: '健身礼物、健康管理、日常实用' },
+
+  // ==================== 轻奢礼品 补充 ====================
+  { id: 143, name: '名牌卡包名片夹', priceRange: '500_1000', category: 'luxury', subcategory: 'brand', recipients: ['boss', 'client', 'colleague'], scenes: ['thanks', 'festival', 'daily_greeting'], reason: '奢侈品牌经典老花，商务社交掏出来的一瞬间就赢了', sceneDesc: '商务社交、高端赠礼、职场进阶' },
+  { id: 144, name: '奢侈品牌袖扣', priceRange: '1000_3000', category: 'luxury', subcategory: 'brand', recipients: ['boss', 'client', 'lover', 'family'], scenes: ['thanks', 'birthday', 'festival'], reason: '品牌经典logo袖扣，法式衬衫的灵魂点缀，精英男士的细节品味', sceneDesc: '商务精英、高端礼物、品味之选' },
+  { id: 145, name: '品牌钥匙扣', priceRange: '500_1000', category: 'luxury', subcategory: 'brand', recipients: ['boss', 'client', 'friend', 'colleague'], scenes: ['thanks', 'daily_greeting'], reason: '奢侈品牌入门级单品，低调中透露品味，日常随身的高端', sceneDesc: '商务小礼、轻奢入门、日常随身' },
+  { id: 146, name: '纯铜工艺品摆件', priceRange: '500_1000', category: 'luxury', subcategory: 'ornament', recipients: ['boss', 'client', 'elder', 'family'], scenes: ['housewarming', 'festival', 'thanks'], reason: '纯铜铸造精工细作，马上封侯/一帆风顺等吉祥寓意', sceneDesc: '乔迁贺礼、商务摆件、吉祥寓意' },
+  { id: 147, name: '琉璃工艺品摆件', priceRange: '1000_3000', category: 'luxury', subcategory: 'ornament', recipients: ['boss', 'client', 'elder', 'teacher'], scenes: ['festival', 'thanks', 'housewarming'], reason: '古法琉璃烧制，流光溢彩独一无二，每一件都是孤品', sceneDesc: '高端送礼、艺术收藏、镇宅之宝' },
+  { id: 148, name: '高端茶叶礼盒套装', priceRange: '1000_3000', category: 'luxury', subcategory: 'premium_box', recipients: ['boss', 'client', 'elder', 'teacher'], scenes: ['festival', 'thanks'], reason: '金骏眉+大红袍+铁观音高端组合，木盒精装彰显诚意', sceneDesc: '商务送礼、孝敬长辈、茶中极品' },
+  { id: 149, name: '进口松露巧克力礼盒', priceRange: '500_1000', category: 'luxury', subcategory: 'premium_box', recipients: ['lover', 'friend', 'boss', 'client'], scenes: ['festival', 'thanks', 'apology'], reason: '比利时进口纯可可脂松露巧克力，入口即化的奢华甜蜜', sceneDesc: '高端甜品、商务送礼、浪漫心意' },
+  { id: 150, name: '精品咖啡器具礼盒', priceRange: '500_1000', category: 'luxury', subcategory: 'premium_box', recipients: ['boss', 'client', 'friend', 'colleague'], scenes: ['thanks', 'festival', 'birthday'], reason: '手摇磨豆机+手冲壶+分享壶全套，咖啡爱好者的梦幻装备', sceneDesc: '咖啡达人、高端生活、品味之选' },
+  { id: 151, name: '纪念币收藏册', priceRange: '500_1000', category: 'luxury', subcategory: 'collectible', recipients: ['elder', 'boss', 'client', 'family'], scenes: ['festival', 'thanks', 'birthday'], reason: '央行发行生肖/熊猫纪念币套装，收藏传家两相宜', sceneDesc: '收藏爱好者、传家之宝、生肖礼物' },
+  { id: 152, name: '限量艺术版画', priceRange: '1000_3000', category: 'luxury', subcategory: 'collectible', recipients: ['boss', 'client', 'friend', 'family'], scenes: ['housewarming', 'festival', 'thanks'], reason: '艺术家签名限量版画，装裱精美提升空间艺术格调', sceneDesc: '新家装饰、艺术收藏、高端送礼' },
+
+  // ==================== 高端礼品 补充 ====================
+  { id: 153, name: '高端筋膜枪', priceRange: '1000_3000', category: 'luxury', subcategory: 'brand', recipients: ['friend', 'family', 'lover', 'colleague'], scenes: ['birthday', 'festival', 'sick'], reason: '专业级静音无刷电机，深层肌肉放松，运动康复高端之选', sceneDesc: '运动达人、康复礼物、品质生活' },
+  { id: 154, name: '品牌行李箱', priceRange: '1000_3000', category: 'luxury', subcategory: 'brand', recipients: ['friend', 'family', 'lover', 'colleague'], scenes: ['birthday', 'graduation', 'festival'], reason: '轻奢品牌PC铝框拉杆箱，静音万向轮，旅行出差的气质担当', sceneDesc: '毕业礼物、旅行达人、品质出行' },
+  { id: 155, name: '机械键盘', priceRange: '500_1000', category: 'digital', subcategory: 'gadget', recipients: ['classmate', 'friend', 'colleague'], scenes: ['birthday', 'graduation', 'daily_greeting'], reason: 'Cherry轴体RGB背光，打字游戏手感一流，程序员的快乐源泉', sceneDesc: '程序员礼物、游戏玩家、桌面升级' },
+  { id: 156, name: '拍立得相机', priceRange: '500_1000', category: 'digital', subcategory: 'smart', recipients: ['classmate', 'friend', 'lover', 'child'], scenes: ['birthday', 'graduation', 'festival'], reason: '即拍即得记录美好瞬间，相纸上的青春比手机里更有温度', sceneDesc: '文艺青年、学生礼物、记录生活' },
+  { id: 157, name: '高档保温杯礼盒', priceRange: '200_500', category: 'daily', subcategory: 'living', recipients: ['teacher', 'elder', 'boss', 'client', 'friend'], scenes: ['thanks', 'festival', 'daily_greeting'], reason: '316不锈钢内胆+智能测温杯盖，泡茶喝咖啡保温一整天', sceneDesc: '教师节、商务送礼、品质日常' },
+  { id: 158, name: '桌面绿植盆栽', priceRange: '100_200', category: 'home', subcategory: 'decoration', recipients: ['classmate', 'friend', 'colleague', 'teacher', 'family'], scenes: ['daily_greeting', 'housewarming', 'thanks'], reason: '好养活的ins风绿植+陶瓷盆，给桌面添一抹生机勃勃的绿意', sceneDesc: '办公桌装饰、新家礼物、治愈好物' },
+  { id: 159, name: '便携运动水壶', priceRange: '50_100', category: 'daily', subcategory: 'portable', recipients: ['classmate', 'friend', 'colleague', 'family'], scenes: ['daily_greeting', 'graduation'], reason: 'Tritan材质安全无味，单手开盖一饮而尽，健身跑步好搭档', sceneDesc: '运动必备、健身礼物、学生日常' },
+  { id: 160, name: '蓝牙自拍杆三脚架', priceRange: '50_100', category: 'digital', subcategory: 'gadget', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['birthday', 'daily_greeting', 'festival'], reason: '自拍杆+三脚架二合一，一个人也能拍出旅行大片', sceneDesc: '旅行必备、爱拍照的朋友、实用小物' },
+  { id: 161, name: '陶瓷咖啡杯套装', priceRange: '100_200', category: 'home', subcategory: 'kitchen', recipients: ['classmate', 'friend', 'colleague', 'teacher', 'family'], scenes: ['housewarming', 'daily_greeting', 'thanks'], reason: '手工陶瓷马克杯4只装，每个都不一样，喝咖啡也要有仪式感', sceneDesc: '乔迁礼物、闺蜜分享、咖啡伴侣' },
+  { id: 162, name: '日式木质餐具套装', priceRange: '100_200', category: 'home', subcategory: 'kitchen', recipients: ['family', 'friend', 'colleague', 'classmate'], scenes: ['housewarming', 'birthday', 'festival'], reason: '天然木纹筷子+勺+叉套装，日系简约风，用餐的高级仪式感', sceneDesc: '新家礼物、品质生活、日式美学' },
+  { id: 163, name: '便携挂烫机', priceRange: '200_500', category: 'digital', subcategory: 'appliance', recipients: ['colleague', 'friend', 'family', 'lover'], scenes: ['daily_greeting', 'housewarming', 'birthday'], reason: '手持迷你蒸汽熨斗，出门前3分钟抚平褶皱，精致人的必备', sceneDesc: '职场新人、精致生活、实用品质' },
+  { id: 164, name: '磁吸充电宝', priceRange: '100_200', category: 'digital', subcategory: 'gadget', recipients: ['classmate', 'friend', 'colleague', 'lover'], scenes: ['daily_greeting', 'birthday'], reason: '无线磁吸一贴即充，不用线的充电宝太香了，颜值与实用并存', sceneDesc: 'iPhone用户最爱、学生党、日常通勤' },
+  { id: 165, name: '手工编织挂毯', priceRange: '100_200', category: 'home', subcategory: 'decoration', recipients: ['classmate', 'friend', 'lover', 'family'], scenes: ['housewarming', 'birthday', 'daily_greeting'], reason: '波西米亚风手工编织，挂在墙上艺术感满满，出租屋秒变ins风', sceneDesc: '宿舍改造、新家装饰、文艺好物' },
 ]
 
 const recipientMap = {
@@ -312,52 +427,81 @@ export function generateGreeting(recipient, scene) {
 export function recommendGifts(filters) {
   const { recipient, budget, category, subcategory, scene } = filters
 
-  let filtered = [...gifts]
-
-  if (recipient) {
-    filtered = filtered.filter(g => g.recipients.includes(recipient))
-  }
-
-  if (budget) {
-    filtered = filtered.filter(g => g.priceRange === budget)
-  }
-
-  if (category) {
-    filtered = filtered.filter(g => g.category === category)
-  }
-
-  if (subcategory) {
-    filtered = filtered.filter(g => g.subcategory === subcategory)
-  }
-
-  if (filtered.length === 0) {
-    let fallback = [...gifts]
-    if (recipient) {
-      fallback = fallback.filter(g => g.recipients.includes(recipient))
-      if (fallback.length > 0) {
-        filtered = fallback
-      }
+  const shuffle = (arr) => {
+    const a = [...arr]
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]]
     }
+    return a
   }
 
-  if (filtered.length === 0) {
-    filtered = [...gifts]
+  // ===== 第一轮：严格匹配所有条件 =====
+  let exact = [...gifts]
+  if (recipient) exact = exact.filter(g => g.recipients.includes(recipient))
+  if (budget) exact = exact.filter(g => g.priceRange === budget)
+  if (category) exact = exact.filter(g => g.category === category)
+  if (subcategory) exact = exact.filter(g => g.subcategory === subcategory)
+
+  const exactIds = new Set(exact.map(g => g.id))
+  let related = []
+  const usedIds = () => new Set([...exact, ...related].map(g => g.id))
+
+  // ===== 第二轮：放宽预算+小类，保留对象+大类 =====
+  if (exact.length < 10) {
+    let relaxed = [...gifts]
+    if (recipient) relaxed = relaxed.filter(g => g.recipients.includes(recipient))
+    if (category) relaxed = relaxed.filter(g => g.category === category)
+    const ids = usedIds()
+    related.push(...relaxed.filter(g => !ids.has(g.id)))
   }
 
-  const shuffled = filtered.sort(() => Math.random() - 0.5)
-  const count = Math.min(5, Math.max(3, shuffled.length))
-  const selected = shuffled.slice(0, count)
+  // ===== 第三轮：只匹配对象，大类也放开 =====
+  if (exact.length + related.length < 12) {
+    let broader = [...gifts]
+    if (recipient) broader = broader.filter(g => g.recipients.includes(recipient))
+    const ids = usedIds()
+    related.push(...broader.filter(g => !ids.has(g.id)))
+  }
+
+  // ===== 第四轮：只匹配大类 =====
+  if (exact.length + related.length < 12 && category) {
+    let byCategory = gifts.filter(g => g.category === category)
+    const ids = usedIds()
+    related.push(...byCategory.filter(g => !ids.has(g.id)))
+  }
+
+  // ===== 第五轮：全局热门兜底 =====
+  if (exact.length + related.length < 8) {
+    const ids = usedIds()
+    related.push(...gifts.filter(g => !ids.has(g.id)))
+  }
+
+  // ===== 去重 & 打乱 & 选取 =====
+  const exactShuffled = shuffle(exact)
+  const relatedShuffled = shuffle(related)
+
+  // 严格匹配取最多 15 个
+  const exactPicks = exactShuffled.slice(0, 15)
+  // 放宽匹配补齐到总共 20 个
+  const needMore = Math.max(0, 20 - exactPicks.length)
+  const relatedPicks = relatedShuffled.slice(0, needMore)
+
+  const allGifts = [...exactPicks, ...relatedPicks]
 
   const greeting = scene && recipient ? generateGreeting(recipient, scene) : ''
 
   return {
-    gifts: selected.map(g => ({
+    gifts: allGifts.map(g => ({
       id: g.id,
       name: g.name,
       reason: g.reason,
       sceneDesc: g.sceneDesc,
-      priceRange: budgetNames[g.priceRange] || g.priceRange
+      priceRange: budgetNames[g.priceRange] || g.priceRange,
+      isExactMatch: exactPicks.includes(g)
     })),
+    totalExact: exact.length,
+    totalRelated: relatedPicks.length,
     greeting
   }
 }

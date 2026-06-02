@@ -17,6 +17,8 @@
           :gifts="recommendedGifts"
           :greeting="currentGreeting"
           :filters="lastFilters"
+          :total-exact="totalExact"
+          :total-related="totalRelated"
           @reset="handleReset"
         />
       </div>
@@ -32,23 +34,29 @@
 import { ref } from 'vue'
 import GiftFilter from './components/GiftFilter.vue'
 import GiftResult from './components/GiftResult.vue'
-import { recommendGifts, generateGreeting } from './data/giftData.js'
+import { recommendGifts } from './data/giftData.js'
 
 const recommendedGifts = ref([])
 const currentGreeting = ref('')
 const lastFilters = ref(null)
+const totalExact = ref(0)
+const totalRelated = ref(0)
 
 function handleRecommend(filters) {
   const result = recommendGifts(filters)
   recommendedGifts.value = result.gifts
   currentGreeting.value = result.greeting
   lastFilters.value = filters
+  totalExact.value = result.totalExact
+  totalRelated.value = result.totalRelated
 }
 
 function handleReset() {
   recommendedGifts.value = []
   currentGreeting.value = ''
   lastFilters.value = null
+  totalExact.value = 0
+  totalRelated.value = 0
 }
 </script>
 
